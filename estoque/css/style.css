@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+/* TAGS ============================================================ */
+/* footer {
+    position: fixed;
+    height: 120px;
+    bottom: 0;
+    width: 100%;
+    /* background-color: rgba(245, 167, 22, 0.776); */
+    background-color: #696969;
+} */
+
+body {
+    padding-bottom: 80px;
+}
+h6{
+    color: #5a5b5d;
+}
+/* /TAGS ============================================================ */
+
+/* ID's ============================================================= */
+#developer{
+    margin-top: 30px;
+    font-family: 'Lexend', sans-serif;
+    color: aliceblue;
+}
+#footer-2{
+    text-align: center;
+}
+#home{
+    color: rgb(208, 146, 30);
+}
+/* /ID's ============================================================ */

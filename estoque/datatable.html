@@ -1,0 +1,32 @@
+<html lang="en">
+    <head>
+		<meta charset="utf-8">
+		<title>DataTables</title>
+		<link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
+		<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+		<script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+		<script type="text/javascript" language="javascript">
+		$(document).ready(function() {
+			$('#storage').DataTable({			
+				"processing": true,
+				"serverSide": true,
+				"ajax": {
+					"url": "/estoque/php/estoque2.php",
+					"type": "POST"
+				}
+			});
+		} );
+		</script>
+	</head>
+	<body>
+		<h1>Listar usuários</h1>
+		<table id="storage" class="display" style="width:100%">
+			<thead>
+				<tr>
+					<th>Peça</th>
+					<th>Quantidade</th>					
+				</tr>
+			</thead>
+		</table>		
+	</body>
+</html>
